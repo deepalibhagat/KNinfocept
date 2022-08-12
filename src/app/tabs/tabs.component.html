@@ -1,0 +1,50 @@
+ <!--change image-->
+ <section class="ptb">
+    <div class="container">
+      <h2 class="text-center pb">Hover Below list Buttons to display div</h2>
+      <div class="row">
+        
+        <div class="col-md-5">
+        <div class="text-center">
+        <ul class="list-inline">
+        <li class="mymultiplediv" id="one">Show Manager</li>
+        <li class="mymultiplediv" id="two">Show HR</li>
+        <li class="mymultiplediv" id="three">Show Developer</li>
+        <li class="mymultiplediv" id="fore">Show Designer</li>
+        <li class="mymultiplediv" id="five">Show HR</li>
+        <li class="mymultiplediv" id="six">Show Developer</li>
+        <li class="mymultiplediv" id="seven">Show Designer</li>
+        </ul>
+        </div>
+      </div>
+        <div class="col-md-7">
+  
+        
+        <div class="mydiv" id="divone"><img  src="https://img.freepik.com/free-photo/beautiful-curly-girl-pointing-finger_176420-168.jpg?w=1060&t=st=1659891576~exp=1659892176~hmac=f5f2681a183f04af6e1b0c000a64313cffe6d6b33d5056c558bc00bc4937bce7" alt="Manager" class="img-responsive img-thumbnail"/><span>Manager</span></div>
+        <div class="mydiv" id="divtwo"><img src="https://img.freepik.com/free-photo/cheerful-curly-business-girl-wearing-glasses_176420-206.jpg?w=1060&t=st=1659891612~exp=1659892212~hmac=22f333bcca9552c8e251d46488998067ed3bedd74fe59af55129aa5323724736" alt="HR" class="img-responsive img-thumbnail"/><span>HR</span></div>
+        <div class="mydiv" id="divthree"><img src="https://img.freepik.com/free-photo/portrait-handsome-smiling-stylish-hipster-lumbersexual-businessman-model-man-dressed-jeans-jacket-clothes_158538-1732.jpg?w=900&t=st=1659891682~exp=1659892282~hmac=5bf9d792a88d50533bcd94e526983090887c3f361f6d917588d28f26890cdc58" alt="Developer" class="img-responsive img-thumbnail"/><span>Developer</span></div>
+        <div class="mydiv" id="divfore"><img src="https://img.freepik.com/free-photo/cheerful-curly-business-girl-wearing-glasses_176420-206.jpg?w=1060&t=st=1659891612~exp=1659892212~hmac=22f333bcca9552c8e251d46488998067ed3bedd74fe59af55129aa5323724736" alt="HR" class="img-responsive img-thumbnail" alt="Designer" class="img-responsive img-thumbnail"/><span>Designer</span></div>
+        <div class="mydiv" id="divfive"><img src="https://img.freepik.com/free-photo/cheerful-curly-business-girl-wearing-glasses_176420-206.jpg?w=1060&t=st=1659891612~exp=1659892212~hmac=22f333bcca9552c8e251d46488998067ed3bedd74fe59af55129aa5323724736" alt="HR" class="img-responsive img-thumbnail"/><span>HR</span></div>
+        <div class="mydiv" id="divsix"><img src="https://img.freepik.com/free-photo/portrait-handsome-smiling-stylish-hipster-lumbersexual-businessman-model-man-dressed-jeans-jacket-clothes_158538-1732.jpg?w=900&t=st=1659891682~exp=1659892282~hmac=5bf9d792a88d50533bcd94e526983090887c3f361f6d917588d28f26890cdc58" alt="Developer" class="img-responsive img-thumbnail"/><span>Developer</span></div>
+        <div class="mydiv" id="divseven"><img src="https://img.freepik.com/free-photo/cheerful-curly-business-girl-wearing-glasses_176420-206.jpg?w=1060&t=st=1659891612~exp=1659892212~hmac=22f333bcca9552c8e251d46488998067ed3bedd74fe59af55129aa5323724736" alt="HR" class="img-responsive img-thumbnail" alt="Designer" class="img-responsive img-thumbnail"/><span>Designer</span></div>
+      
+      </div>
+      </div>
+    </div>
+   </section>
+    
+    <!--change image-->
+
+
+    <!-- script for change image-->
+    <script>
+        $(document).ready(function(){
+        $('.mymultiplediv').mouseover(function() {
+        myvar = this.id;
+        $("div.mydiv").hide();
+        $('#div'+myvar).show();
+        });
+        });
+        </script>
+
+        <!-- script for change image-->

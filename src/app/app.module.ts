@@ -7,6 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { CounterComponent } from './counter/counter.component';
 import { ServicesComponent } from './services/services.component';
+import { TabsComponent } from './tabs/tabs.component';
+import { ParallaxComponent } from './parallax/parallax.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ServicesComponent } from './services/services.component';
     HeaderComponent,
     FooterComponent,
     CounterComponent,
-    ServicesComponent
+    ServicesComponent,
+    TabsComponent,
+    ParallaxComponent
   ],
   imports: [
     BrowserModule,
