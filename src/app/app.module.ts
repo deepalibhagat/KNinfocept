@@ -9,6 +9,9 @@ import { CounterComponent } from './counter/counter.component';
 import { ServicesComponent } from './services/services.component';
 import { TabsComponent } from './tabs/tabs.component';
 import { ParallaxComponent } from './parallax/parallax.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+import {MatButtonModule} from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,9 @@ import { ParallaxComponent } from './parallax/parallax.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
