@@ -9,10 +9,6 @@ import { CounterComponent } from './counter/counter.component';
 import { ServicesComponent } from './services/services.component';
 import { TabsComponent } from './tabs/tabs.component';
 import { ParallaxComponent } from './parallax/parallax.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { BodyComponent } from './body/body.component';
-import { MatCarouselModule } from '@ngmodule/material-carousel';
-
 
 @NgModule({
   declarations: [
@@ -28,9 +24,7 @@ import { MatCarouselModule } from '@ngmodule/material-carousel';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    MatCarouselModule.forRoot(),
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
