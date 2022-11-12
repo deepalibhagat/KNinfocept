@@ -9,6 +9,7 @@ import { CounterComponent } from './counter/counter.component';
 import { ServicesComponent } from './services/services.component';
 import { TabsComponent } from './tabs/tabs.component';
 import { ParallaxComponent } from './parallax/parallax.component';
+import { BodyComponent } from './body/body.component';
 
 @NgModule({
   declarations: [
