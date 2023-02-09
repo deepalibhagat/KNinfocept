@@ -11,9 +11,8 @@ import { TabsComponent } from './tabs/tabs.component';
 import { ParallaxComponent } from './parallax/parallax.component';
 import { BodyComponent } from './body/body.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatSliderModule } from '@angular/material/slider';
-import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
 import { MdbAccordionModule } from 'mdb-angular-ui-kit/accordion';
+import { MdbCarouselModule } from 'mdb-angular-ui-kit/carousel';
 import { MdbCheckboxModule } from 'mdb-angular-ui-kit/checkbox';
 import { MdbCollapseModule } from 'mdb-angular-ui-kit/collapse';
 import { MdbDropdownModule } from 'mdb-angular-ui-kit/dropdown';
@@ -40,13 +39,12 @@ import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
     TabsComponent,
     ParallaxComponent,
     BodyComponent,
-    MdbCarouselModule
+  
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatSliderModule,
     MdbAccordionModule,
     MdbCarouselModule,
     MdbCheckboxModule,
@@ -61,7 +59,8 @@ import { MdbValidationModule } from 'mdb-angular-ui-kit/validation';
     MdbScrollspyModule,
     MdbTabsModule,
     MdbTooltipModule,
-    MdbValidationModule
+    MdbValidationModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
