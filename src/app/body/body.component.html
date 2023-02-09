@@ -1,44 +1,19 @@
-<!--  
-<mat-carousel
-timings="250ms ease-in"
-[autoplay]="true"
-interval="5000"
-color="accent"
-maxWidth="auto"
-proportion="25"
-slides="5"
-[loop]="true"
-[hideArrows]="false"
-[hideIndicators]="false"
-[useKeyboard]="true"
-[useMouseWheel]="false"
-orientation="ltr"
->
-<mat-carousel-slide
-  #matCarouselSlide
-  *ngFor="let slide of slides; let i = index"
-  [image]="slide.image"
-  overlayColor="#00000040"
-  [hideOverlay]="false"
-></mat-carousel-slide>
-</mat-carousel> -->
 
-<!-- <mat-slider min="1" max="100" step="1" value="50"></mat-slider> -->
 <mdb-carousel  [indicators]="true">
   <mdb-carousel-item>
     <img
-      src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp"
+      src="assets/images/slider1.png"
       class="d-block w-100"
       alt="..."
     />
-    <div class="carousel-caption d-none d-md-block">
+    <div class="carousel-caption  d-md-block">
       <h5>First slide label</h5>
       <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
     </div>
   </mdb-carousel-item>
   <mdb-carousel-item>
     <img
-      src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp"
+      src="assets/images/slider2.png"
       class="d-block w-100"
       alt="..."
     />
@@ -49,7 +24,7 @@ orientation="ltr"
   </mdb-carousel-item>
   <mdb-carousel-item>
     <img
-      src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp"
+      src="assets/images/slider3.png"
       class="d-block w-100"
       alt="..."
     />
